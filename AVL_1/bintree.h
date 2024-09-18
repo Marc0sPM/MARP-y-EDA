@@ -109,5 +109,46 @@ template <typename T> BinTree<T> read_tree(std::istream &in) {
     return result;
   }
 }
+//mapeo de palabras a numeros
+
+
+template <typename T> BinTree<T> read_tree_word(std::istream& in) {
+    std::map<std::string, T> wtn = {
+    {"uno", 1},
+    {"dos", 2},
+    {"tres", 3},
+    {"cuatro", 4},
+    {"cinco", 5},
+    {"seis", 6},
+    {"siete", 7},
+    {"ocho", 8},
+    {"nueve", 9},
+    {"diez", 10},
+    {"once", 11},
+    {"doce", 12}
+    };
+    char c;
+    in >> c;
+    if (c == '.') {
+        return BinTree<T>();
+    }
+    else {
+        assert(c == '(');
+
+        BinTree<T> left = read_tree_word<T>(in);
+        std::string elem;
+        in >> elem;
+
+        // Convertir el elemento usando el mapa
+        T value;
+        value =  wtn[elem];
+
+        BinTree<T> right = read_tree_word<T>(in);
+        in >> c;
+        assert(c == ')');
+        BinTree<T> result(left, value, right);
+        return result;
+    }
+}
 
 #endif
