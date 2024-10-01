@@ -65,7 +65,7 @@ bool resuelveCaso() {
         conflicto = primer.c < ocupado;
         ocupado = primer.f;
         if (primer.p > -1) {
-            tareas.push({ primer.c + primer.p, primer.f + primer.p });
+            tareas.push({ primer.c + primer.p, primer.f + primer.p, primer.p});
         }
     }
 
