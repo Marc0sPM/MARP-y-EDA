@@ -27,13 +27,13 @@ private:
 
 public:
 
-	CaminosDFS(Grafo const& g, int s) : visit(g.V(), false),
+	CaminosDFS(Grafo const& g, int s = 0) : visit(g.V(), false),
 										ant(g.V()), s(s) {
-		dfs(g, s);
+			dfs(g, s);
 	}
 
 	/**
-	*	Annaliza si existe camino hacia un vertice
+	*	Analiza si existe camino hacia un vertice
 	*	@param v Vertice del cual queremos saber si existe camino
 	*	@return True si existe camino, false si no existe
 	*/
@@ -56,4 +56,59 @@ public:
 		return cam;
 	}
 
+	/**
+	*	Comprueba si el grafo es aciclico o no
+	*	@return True en caso de que el grafo sea aciclico, false en caso contrario
+	*/
+	//bool esAciclico(Grafo const& g) {	// coste O(V + A)
+
+	//	for (int v = 0; v < visit.size(); ++v) {
+	//		if (visit[v]) {
+	//			// Recorremos los adyacentes del vértice actual
+	//			for (int w : g.ady(v)) {
+	//				// Si se encuentra uun vertice ya visitado que no es el predecesor de v existe un ciclo
+	//				if (visit[w] && ant[v] != w) {
+	//					return false; // Encontramos un ciclo
+	//				}
+	//			}
+	//		}
+	//	}
+	//	return true;
+	//}
+	/**
+	*	@return True en caso de que todos los vertices se hayan visitado, false si hay alguno que no
+	*/
+	bool esConexo() const {
+		for (int i = 0; i < visit.size(); ++i) {
+			if (!visit[i]) return false;
+		}
+		return true;
+	}
+
+	bool dfsCiclo(int v, int parent, Grafo const& g, vector<bool>& visited) {
+		visited[v] = true;
+
+		for (int w : g.ady(v)) {
+			if (!visited[w]) {
+				if (dfsCiclo(w, v, g, visited))
+					return true;
+			}
+			else if (w != parent) {
+				return true; 
+			}
+		}
+		return false;
+	}
+
+	bool esAciclico(Grafo const& g) {
+		vector<bool> visited(g.V(), false);
+		while(true){}
+		for (int v = 0; v < g.V(); ++v) {
+			if (!visited[v]) {
+				if (dfsCiclo(v, -1, g, visited))
+					return false; 
+			}
+		}
+		return true;
+	}
 };

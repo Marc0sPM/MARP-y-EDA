@@ -12,6 +12,7 @@
 using namespace std;
 
 #include "Grafos.h"  // propios o los de las estructuras de datos de clase
+#include "CaminosDFS.h" 
 
 /*@ <answer>
 
@@ -27,41 +28,23 @@ using namespace std;
  // ================================================================
  //@ <answer>
 
-struct Grupo {
-    int cant, id; // id ? necesaria
-};
-bool operator<(const Grupo& a, const Grupo& b) {
-    return b.cant > a.cant || (b.cant == a.cant && b.id < a.id);
+bool esArbolLibre(Grafo const& g) {
+    CaminosDFS c = CaminosDFS(g);
+
+    return c.esAciclico(g) && c.esConexo();
 }
+
 bool resuelveCaso() {
 
     // leer los datos de la entrada
-    int p, n;
-    cin >> p >> n;
-    priority_queue<Grupo> cola;
+    Grafo g = Grafo(cin);
 
     if (!std::cin)  // fin de la entrada
         return false;
+
+    if (esArbolLibre(g)) cout << "SI\n";
+    else cout << "NO\n";
     
-    for (int i = 0; i < n; ++i) {
-        int k;
-        cin >> k;
-        cola.push({ k, i });
-    }
-
-    while (cola.size() < p) {
-        Grupo aux = cola.top();  cola.pop();
-        int a, b;
-        a = aux.cant / 2;
-        b = aux.cant - a;
-        // Id del grupo el mismo que se ha dividido
-        cola.push({ a, aux.id }); 
-        // Id del grupo el proximo valor que no esta cogido por otro grupo [0,... cola.size())
-        int c = cola.size();
-        cola.push({ b, c - 1});
-    }
-
-    std::cout << cola.top().cant << "\n";
    
     return true;
 }
