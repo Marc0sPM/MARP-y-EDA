@@ -26,41 +26,56 @@ using namespace std;
  // Escribe el código completo de tu solución aquí debajo
  // ================================================================
  //@ <answer>
-
-struct instrumento {
-    int musicos, partituras;
+struct Tarea {
+    int ini, fin, periodo = -1; // Por defecto tarea unica
 };
-bool operator <(instrumento const& a, instrumento const& b) {
-    return (a.musicos * b.partituras <  b.musicos * a.partituras); // multipicacion en vez de division para evitar pérdida de información
+bool operator <(Tarea const& a, Tarea const& b) {
+    return b.ini < a.ini;
 }
 
 bool resuelveCaso() {
 
-    int P, N; 
-    cin >> P >> N;
+    int N, M, T;
+    cin >> N;
     if (!std::cin)  // fin de la entrada
         return false;
-   
-    priority_queue<instrumento> lista;
-    // Leemos instrumentos
-    for (int i = 0; i < N; ++i) {
-        instrumento a;
-        cin >> a.musicos;
-        //Suponemos que en el inicio siempre hay al menos un partitura para cada tipo de instrumento
-        a.partituras = 1;
+    cin >> M >> T;
+    priority_queue<Tarea> lista;
+    
+    // Tareas unicas
+    for (int i = 0; i < N; i++) {
+        Tarea a; 
+        cin >> a.ini >> a.fin;
         lista.push(a);
+    }
+    //Tareas periódicas 
+    for (int i = 0; i < M; i++) {
+        Tarea b;
+        cin >> b.ini >> b.fin >> b.periodo;
+        lista.push(b);
+    }
+
+    bool conflicto = false;
+    int ocupado = 0; // Tiempo hasta que se está ocupacio "top.fin" 
+
+    while (!conflicto && !lista.empty() && lista.top().ini < T) {
+        Tarea a; 
+        a = lista.top(); lista.pop();
+        
+        conflicto = a.ini < ocupado;
+        ocupado = a.fin;
+        if (a.periodo != -1) {
+            a.ini += a.periodo;
+            a.fin += a.periodo;
+            lista.push(a);
+        }
+
     }
     
+    std::cout << (conflicto ? "SI\n" : "NO\n") ;
 
-    for (int i = N; i < P; i++) {
-        instrumento a = lista.top(); lista.pop();
-        a.partituras++;
-        lista.push(a);
-    }
 
-    instrumento a = lista.top();
 
-    std::cout << a.musicos /a.partituras +( a.musicos%a.partituras>0)  << std::endl; 
     return true;
 }
 
