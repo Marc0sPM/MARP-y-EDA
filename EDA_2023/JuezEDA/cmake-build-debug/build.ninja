@@ -1,0 +1,2030 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: Juez
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/almasso/Documents/GitHub/JuezEDA/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target Dalton
+
+
+#############################################
+# Order-only phony target for Dalton
+
+build cmake_object_order_depends_target_Dalton: phony || CMakeFiles/Dalton.dir
+
+build CMakeFiles/Dalton.dir/Tema1/Dalton.cpp.o: CXX_COMPILER__Dalton_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema1/Dalton.cpp || cmake_object_order_depends_target_Dalton
+  DEP_FILE = CMakeFiles/Dalton.dir/Tema1/Dalton.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Dalton.dir
+  OBJECT_FILE_DIR = CMakeFiles/Dalton.dir/Tema1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Dalton
+
+
+#############################################
+# Link the executable Dalton
+
+build Dalton: CXX_EXECUTABLE_LINKER__Dalton_Debug CMakeFiles/Dalton.dir/Tema1/Dalton.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/Dalton.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Dalton
+  TARGET_PDB = Dalton.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Temperaturas
+
+
+#############################################
+# Order-only phony target for Temperaturas
+
+build cmake_object_order_depends_target_Temperaturas: phony || CMakeFiles/Temperaturas.dir
+
+build CMakeFiles/Temperaturas.dir/Tema1/Temperaturas.cpp.o: CXX_COMPILER__Temperaturas_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema1/Temperaturas.cpp || cmake_object_order_depends_target_Temperaturas
+  DEP_FILE = CMakeFiles/Temperaturas.dir/Tema1/Temperaturas.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Temperaturas.dir
+  OBJECT_FILE_DIR = CMakeFiles/Temperaturas.dir/Tema1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Temperaturas
+
+
+#############################################
+# Link the executable Temperaturas
+
+build Temperaturas: CXX_EXECUTABLE_LINKER__Temperaturas_Debug CMakeFiles/Temperaturas.dir/Tema1/Temperaturas.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/Temperaturas.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Temperaturas
+  TARGET_PDB = Temperaturas.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DivisionVector
+
+
+#############################################
+# Order-only phony target for DivisionVector
+
+build cmake_object_order_depends_target_DivisionVector: phony || CMakeFiles/DivisionVector.dir
+
+build CMakeFiles/DivisionVector.dir/Tema1/DivisionVector.cpp.o: CXX_COMPILER__DivisionVector_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema1/DivisionVector.cpp || cmake_object_order_depends_target_DivisionVector
+  DEP_FILE = CMakeFiles/DivisionVector.dir/Tema1/DivisionVector.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/DivisionVector.dir
+  OBJECT_FILE_DIR = CMakeFiles/DivisionVector.dir/Tema1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DivisionVector
+
+
+#############################################
+# Link the executable DivisionVector
+
+build DivisionVector: CXX_EXECUTABLE_LINKER__DivisionVector_Debug CMakeFiles/DivisionVector.dir/Tema1/DivisionVector.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/DivisionVector.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = DivisionVector
+  TARGET_PDB = DivisionVector.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Anagramas
+
+
+#############################################
+# Order-only phony target for Anagramas
+
+build cmake_object_order_depends_target_Anagramas: phony || CMakeFiles/Anagramas.dir
+
+build CMakeFiles/Anagramas.dir/Tema1/Anagramas.cpp.o: CXX_COMPILER__Anagramas_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema1/Anagramas.cpp || cmake_object_order_depends_target_Anagramas
+  DEP_FILE = CMakeFiles/Anagramas.dir/Tema1/Anagramas.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Anagramas.dir
+  OBJECT_FILE_DIR = CMakeFiles/Anagramas.dir/Tema1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Anagramas
+
+
+#############################################
+# Link the executable Anagramas
+
+build Anagramas: CXX_EXECUTABLE_LINKER__Anagramas_Debug CMakeFiles/Anagramas.dir/Tema1/Anagramas.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/Anagramas.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Anagramas
+  TARGET_PDB = Anagramas.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Listados
+
+
+#############################################
+# Order-only phony target for Listados
+
+build cmake_object_order_depends_target_Listados: phony || CMakeFiles/Listados.dir
+
+build CMakeFiles/Listados.dir/Tema1/ComparandoListados.cpp.o: CXX_COMPILER__Listados_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema1/ComparandoListados.cpp || cmake_object_order_depends_target_Listados
+  DEP_FILE = CMakeFiles/Listados.dir/Tema1/ComparandoListados.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Listados.dir
+  OBJECT_FILE_DIR = CMakeFiles/Listados.dir/Tema1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Listados
+
+
+#############################################
+# Link the executable Listados
+
+build Listados: CXX_EXECUTABLE_LINKER__Listados_Debug CMakeFiles/Listados.dir/Tema1/ComparandoListados.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/Listados.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Listados
+  TARGET_PDB = Listados.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Rescate
+
+
+#############################################
+# Order-only phony target for Rescate
+
+build cmake_object_order_depends_target_Rescate: phony || CMakeFiles/Rescate.dir
+
+build CMakeFiles/Rescate.dir/Tema1/Rescate.cpp.o: CXX_COMPILER__Rescate_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema1/Rescate.cpp || cmake_object_order_depends_target_Rescate
+  DEP_FILE = CMakeFiles/Rescate.dir/Tema1/Rescate.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Rescate.dir
+  OBJECT_FILE_DIR = CMakeFiles/Rescate.dir/Tema1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Rescate
+
+
+#############################################
+# Link the executable Rescate
+
+build Rescate: CXX_EXECUTABLE_LINKER__Rescate_Debug CMakeFiles/Rescate.dir/Tema1/Rescate.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/Rescate.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Rescate
+  TARGET_PDB = Rescate.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Complementarios
+
+
+#############################################
+# Order-only phony target for Complementarios
+
+build cmake_object_order_depends_target_Complementarios: phony || CMakeFiles/Complementarios.dir
+
+build CMakeFiles/Complementarios.dir/Tema2/DigitosComplementarios.cpp.o: CXX_COMPILER__Complementarios_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema2/DigitosComplementarios.cpp || cmake_object_order_depends_target_Complementarios
+  DEP_FILE = CMakeFiles/Complementarios.dir/Tema2/DigitosComplementarios.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Complementarios.dir
+  OBJECT_FILE_DIR = CMakeFiles/Complementarios.dir/Tema2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Complementarios
+
+
+#############################################
+# Link the executable Complementarios
+
+build Complementarios: CXX_EXECUTABLE_LINKER__Complementarios_Debug CMakeFiles/Complementarios.dir/Tema2/DigitosComplementarios.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/Complementarios.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Complementarios
+  TARGET_PDB = Complementarios.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SuficientementeDisperso
+
+
+#############################################
+# Order-only phony target for SuficientementeDisperso
+
+build cmake_object_order_depends_target_SuficientementeDisperso: phony || CMakeFiles/SuficientementeDisperso.dir
+
+build CMakeFiles/SuficientementeDisperso.dir/Tema2/SuficientementeDisperso.cpp.o: CXX_COMPILER__SuficientementeDisperso_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema2/SuficientementeDisperso.cpp || cmake_object_order_depends_target_SuficientementeDisperso
+  DEP_FILE = CMakeFiles/SuficientementeDisperso.dir/Tema2/SuficientementeDisperso.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/SuficientementeDisperso.dir
+  OBJECT_FILE_DIR = CMakeFiles/SuficientementeDisperso.dir/Tema2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SuficientementeDisperso
+
+
+#############################################
+# Link the executable SuficientementeDisperso
+
+build SuficientementeDisperso: CXX_EXECUTABLE_LINKER__SuficientementeDisperso_Debug CMakeFiles/SuficientementeDisperso.dir/Tema2/SuficientementeDisperso.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/SuficientementeDisperso.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = SuficientementeDisperso
+  TARGET_PDB = SuficientementeDisperso.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SoloUnImpar
+
+
+#############################################
+# Order-only phony target for SoloUnImpar
+
+build cmake_object_order_depends_target_SoloUnImpar: phony || CMakeFiles/SoloUnImpar.dir
+
+build CMakeFiles/SoloUnImpar.dir/Tema2/SoloUnImpar.cpp.o: CXX_COMPILER__SoloUnImpar_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema2/SoloUnImpar.cpp || cmake_object_order_depends_target_SoloUnImpar
+  DEP_FILE = CMakeFiles/SoloUnImpar.dir/Tema2/SoloUnImpar.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/SoloUnImpar.dir
+  OBJECT_FILE_DIR = CMakeFiles/SoloUnImpar.dir/Tema2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SoloUnImpar
+
+
+#############################################
+# Link the executable SoloUnImpar
+
+build SoloUnImpar: CXX_EXECUTABLE_LINKER__SoloUnImpar_Debug CMakeFiles/SoloUnImpar.dir/Tema2/SoloUnImpar.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/SoloUnImpar.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = SoloUnImpar
+  TARGET_PDB = SoloUnImpar.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ElementosBienSituados
+
+
+#############################################
+# Order-only phony target for ElementosBienSituados
+
+build cmake_object_order_depends_target_ElementosBienSituados: phony || CMakeFiles/ElementosBienSituados.dir
+
+build CMakeFiles/ElementosBienSituados.dir/Tema2/ElementosBienSituados.cpp.o: CXX_COMPILER__ElementosBienSituados_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema2/ElementosBienSituados.cpp || cmake_object_order_depends_target_ElementosBienSituados
+  DEP_FILE = CMakeFiles/ElementosBienSituados.dir/Tema2/ElementosBienSituados.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ElementosBienSituados.dir
+  OBJECT_FILE_DIR = CMakeFiles/ElementosBienSituados.dir/Tema2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ElementosBienSituados
+
+
+#############################################
+# Link the executable ElementosBienSituados
+
+build ElementosBienSituados: CXX_EXECUTABLE_LINKER__ElementosBienSituados_Debug CMakeFiles/ElementosBienSituados.dir/Tema2/ElementosBienSituados.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/ElementosBienSituados.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ElementosBienSituados
+  TARGET_PDB = ElementosBienSituados.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CurvaConcava
+
+
+#############################################
+# Order-only phony target for CurvaConcava
+
+build cmake_object_order_depends_target_CurvaConcava: phony || CMakeFiles/CurvaConcava.dir
+
+build CMakeFiles/CurvaConcava.dir/Tema2/CurvaConcava.cpp.o: CXX_COMPILER__CurvaConcava_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema2/CurvaConcava.cpp || cmake_object_order_depends_target_CurvaConcava
+  DEP_FILE = CMakeFiles/CurvaConcava.dir/Tema2/CurvaConcava.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/CurvaConcava.dir
+  OBJECT_FILE_DIR = CMakeFiles/CurvaConcava.dir/Tema2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CurvaConcava
+
+
+#############################################
+# Link the executable CurvaConcava
+
+build CurvaConcava: CXX_EXECUTABLE_LINKER__CurvaConcava_Debug CMakeFiles/CurvaConcava.dir/Tema2/CurvaConcava.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/CurvaConcava.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = CurvaConcava
+  TARGET_PDB = CurvaConcava.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MinimoVector
+
+
+#############################################
+# Order-only phony target for MinimoVector
+
+build cmake_object_order_depends_target_MinimoVector: phony || CMakeFiles/MinimoVector.dir
+
+build CMakeFiles/MinimoVector.dir/Tema2/MinimoVector.cpp.o: CXX_COMPILER__MinimoVector_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema2/MinimoVector.cpp || cmake_object_order_depends_target_MinimoVector
+  DEP_FILE = CMakeFiles/MinimoVector.dir/Tema2/MinimoVector.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/MinimoVector.dir
+  OBJECT_FILE_DIR = CMakeFiles/MinimoVector.dir/Tema2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MinimoVector
+
+
+#############################################
+# Link the executable MinimoVector
+
+build MinimoVector: CXX_EXECUTABLE_LINKER__MinimoVector_Debug CMakeFiles/MinimoVector.dir/Tema2/MinimoVector.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/MinimoVector.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = MinimoVector
+  TARGET_PDB = MinimoVector.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ElementoPerdido
+
+
+#############################################
+# Order-only phony target for ElementoPerdido
+
+build cmake_object_order_depends_target_ElementoPerdido: phony || CMakeFiles/ElementoPerdido.dir
+
+build CMakeFiles/ElementoPerdido.dir/Tema2/ElementoPerdido.cpp.o: CXX_COMPILER__ElementoPerdido_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema2/ElementoPerdido.cpp || cmake_object_order_depends_target_ElementoPerdido
+  DEP_FILE = CMakeFiles/ElementoPerdido.dir/Tema2/ElementoPerdido.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ElementoPerdido.dir
+  OBJECT_FILE_DIR = CMakeFiles/ElementoPerdido.dir/Tema2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ElementoPerdido
+
+
+#############################################
+# Link the executable ElementoPerdido
+
+build ElementoPerdido: CXX_EXECUTABLE_LINKER__ElementoPerdido_Debug CMakeFiles/ElementoPerdido.dir/Tema2/ElementoPerdido.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/ElementoPerdido.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ElementoPerdido
+  TARGET_PDB = ElementoPerdido.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Junio2022
+
+
+#############################################
+# Order-only phony target for Junio2022
+
+build cmake_object_order_depends_target_Junio2022: phony || CMakeFiles/Junio2022.dir
+
+build CMakeFiles/Junio2022.dir/Tema2/Junio2022.cpp.o: CXX_COMPILER__Junio2022_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema2/Junio2022.cpp || cmake_object_order_depends_target_Junio2022
+  DEP_FILE = CMakeFiles/Junio2022.dir/Tema2/Junio2022.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Junio2022.dir
+  OBJECT_FILE_DIR = CMakeFiles/Junio2022.dir/Tema2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Junio2022
+
+
+#############################################
+# Link the executable Junio2022
+
+build Junio2022: CXX_EXECUTABLE_LINKER__Junio2022_Debug CMakeFiles/Junio2022.dir/Tema2/Junio2022.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/Junio2022.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Junio2022
+  TARGET_PDB = Junio2022.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Diciembre2020
+
+
+#############################################
+# Order-only phony target for Diciembre2020
+
+build cmake_object_order_depends_target_Diciembre2020: phony || CMakeFiles/Diciembre2020.dir
+
+build CMakeFiles/Diciembre2020.dir/Tema2/Diciembre2020.cpp.o: CXX_COMPILER__Diciembre2020_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema2/Diciembre2020.cpp || cmake_object_order_depends_target_Diciembre2020
+  DEP_FILE = CMakeFiles/Diciembre2020.dir/Tema2/Diciembre2020.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Diciembre2020.dir
+  OBJECT_FILE_DIR = CMakeFiles/Diciembre2020.dir/Tema2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Diciembre2020
+
+
+#############################################
+# Link the executable Diciembre2020
+
+build Diciembre2020: CXX_EXECUTABLE_LINKER__Diciembre2020_Debug CMakeFiles/Diciembre2020.dir/Tema2/Diciembre2020.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/Diciembre2020.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Diciembre2020
+  TARGET_PDB = Diciembre2020.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target VectorParcialmenteOrdenado
+
+
+#############################################
+# Order-only phony target for VectorParcialmenteOrdenado
+
+build cmake_object_order_depends_target_VectorParcialmenteOrdenado: phony || CMakeFiles/VectorParcialmenteOrdenado.dir
+
+build CMakeFiles/VectorParcialmenteOrdenado.dir/Tema2/VectorParcialmenteOrdenado.cpp.o: CXX_COMPILER__VectorParcialmenteOrdenado_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema2/VectorParcialmenteOrdenado.cpp || cmake_object_order_depends_target_VectorParcialmenteOrdenado
+  DEP_FILE = CMakeFiles/VectorParcialmenteOrdenado.dir/Tema2/VectorParcialmenteOrdenado.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/VectorParcialmenteOrdenado.dir
+  OBJECT_FILE_DIR = CMakeFiles/VectorParcialmenteOrdenado.dir/Tema2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target VectorParcialmenteOrdenado
+
+
+#############################################
+# Link the executable VectorParcialmenteOrdenado
+
+build VectorParcialmenteOrdenado: CXX_EXECUTABLE_LINKER__VectorParcialmenteOrdenado_Debug CMakeFiles/VectorParcialmenteOrdenado.dir/Tema2/VectorParcialmenteOrdenado.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/VectorParcialmenteOrdenado.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = VectorParcialmenteOrdenado
+  TARGET_PDB = VectorParcialmenteOrdenado.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target NumerosCaucasicos
+
+
+#############################################
+# Order-only phony target for NumerosCaucasicos
+
+build cmake_object_order_depends_target_NumerosCaucasicos: phony || CMakeFiles/NumerosCaucasicos.dir
+
+build CMakeFiles/NumerosCaucasicos.dir/Tema2/NumerosCaucasicos.cpp.o: CXX_COMPILER__NumerosCaucasicos_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema2/NumerosCaucasicos.cpp || cmake_object_order_depends_target_NumerosCaucasicos
+  DEP_FILE = CMakeFiles/NumerosCaucasicos.dir/Tema2/NumerosCaucasicos.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/NumerosCaucasicos.dir
+  OBJECT_FILE_DIR = CMakeFiles/NumerosCaucasicos.dir/Tema2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NumerosCaucasicos
+
+
+#############################################
+# Link the executable NumerosCaucasicos
+
+build NumerosCaucasicos: CXX_EXECUTABLE_LINKER__NumerosCaucasicos_Debug CMakeFiles/NumerosCaucasicos.dir/Tema2/NumerosCaucasicos.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/NumerosCaucasicos.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = NumerosCaucasicos
+  TARGET_PDB = NumerosCaucasicos.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target VariacionesConRepeticion
+
+
+#############################################
+# Order-only phony target for VariacionesConRepeticion
+
+build cmake_object_order_depends_target_VariacionesConRepeticion: phony || CMakeFiles/VariacionesConRepeticion.dir
+
+build CMakeFiles/VariacionesConRepeticion.dir/Tema3/VariacionesConRepeticion.cpp.o: CXX_COMPILER__VariacionesConRepeticion_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema3/VariacionesConRepeticion.cpp || cmake_object_order_depends_target_VariacionesConRepeticion
+  DEP_FILE = CMakeFiles/VariacionesConRepeticion.dir/Tema3/VariacionesConRepeticion.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/VariacionesConRepeticion.dir
+  OBJECT_FILE_DIR = CMakeFiles/VariacionesConRepeticion.dir/Tema3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target VariacionesConRepeticion
+
+
+#############################################
+# Link the executable VariacionesConRepeticion
+
+build VariacionesConRepeticion: CXX_EXECUTABLE_LINKER__VariacionesConRepeticion_Debug CMakeFiles/VariacionesConRepeticion.dir/Tema3/VariacionesConRepeticion.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/VariacionesConRepeticion.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = VariacionesConRepeticion
+  TARGET_PDB = VariacionesConRepeticion.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target VariacionesSinRepeticion
+
+
+#############################################
+# Order-only phony target for VariacionesSinRepeticion
+
+build cmake_object_order_depends_target_VariacionesSinRepeticion: phony || CMakeFiles/VariacionesSinRepeticion.dir
+
+build CMakeFiles/VariacionesSinRepeticion.dir/Tema3/VariacionesSinRepeticion.cpp.o: CXX_COMPILER__VariacionesSinRepeticion_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema3/VariacionesSinRepeticion.cpp || cmake_object_order_depends_target_VariacionesSinRepeticion
+  DEP_FILE = CMakeFiles/VariacionesSinRepeticion.dir/Tema3/VariacionesSinRepeticion.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/VariacionesSinRepeticion.dir
+  OBJECT_FILE_DIR = CMakeFiles/VariacionesSinRepeticion.dir/Tema3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target VariacionesSinRepeticion
+
+
+#############################################
+# Link the executable VariacionesSinRepeticion
+
+build VariacionesSinRepeticion: CXX_EXECUTABLE_LINKER__VariacionesSinRepeticion_Debug CMakeFiles/VariacionesSinRepeticion.dir/Tema3/VariacionesSinRepeticion.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/VariacionesSinRepeticion.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = VariacionesSinRepeticion
+  TARGET_PDB = VariacionesSinRepeticion.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LasNReinas
+
+
+#############################################
+# Order-only phony target for LasNReinas
+
+build cmake_object_order_depends_target_LasNReinas: phony || CMakeFiles/LasNReinas.dir
+
+build CMakeFiles/LasNReinas.dir/Tema3/LasNReinas.cpp.o: CXX_COMPILER__LasNReinas_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema3/LasNReinas.cpp || cmake_object_order_depends_target_LasNReinas
+  DEP_FILE = CMakeFiles/LasNReinas.dir/Tema3/LasNReinas.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/LasNReinas.dir
+  OBJECT_FILE_DIR = CMakeFiles/LasNReinas.dir/Tema3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LasNReinas
+
+
+#############################################
+# Link the executable LasNReinas
+
+build LasNReinas: CXX_EXECUTABLE_LINKER__LasNReinas_Debug CMakeFiles/LasNReinas.dir/Tema3/LasNReinas.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/LasNReinas.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = LasNReinas
+  TARGET_PDB = LasNReinas.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TorresDeColores
+
+
+#############################################
+# Order-only phony target for TorresDeColores
+
+build cmake_object_order_depends_target_TorresDeColores: phony || CMakeFiles/TorresDeColores.dir
+
+build CMakeFiles/TorresDeColores.dir/Tema3/TorresDeColores.cpp.o: CXX_COMPILER__TorresDeColores_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema3/TorresDeColores.cpp || cmake_object_order_depends_target_TorresDeColores
+  DEP_FILE = CMakeFiles/TorresDeColores.dir/Tema3/TorresDeColores.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/TorresDeColores.dir
+  OBJECT_FILE_DIR = CMakeFiles/TorresDeColores.dir/Tema3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TorresDeColores
+
+
+#############################################
+# Link the executable TorresDeColores
+
+build TorresDeColores: CXX_EXECUTABLE_LINKER__TorresDeColores_Debug CMakeFiles/TorresDeColores.dir/Tema3/TorresDeColores.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/TorresDeColores.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = TorresDeColores
+  TARGET_PDB = TorresDeColores.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LucesNavidad
+
+
+#############################################
+# Order-only phony target for LucesNavidad
+
+build cmake_object_order_depends_target_LucesNavidad: phony || CMakeFiles/LucesNavidad.dir
+
+build CMakeFiles/LucesNavidad.dir/Tema3/LucesNavidad.cpp.o: CXX_COMPILER__LucesNavidad_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema3/LucesNavidad.cpp || cmake_object_order_depends_target_LucesNavidad
+  DEP_FILE = CMakeFiles/LucesNavidad.dir/Tema3/LucesNavidad.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/LucesNavidad.dir
+  OBJECT_FILE_DIR = CMakeFiles/LucesNavidad.dir/Tema3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LucesNavidad
+
+
+#############################################
+# Link the executable LucesNavidad
+
+build LucesNavidad: CXX_EXECUTABLE_LINKER__LucesNavidad_Debug CMakeFiles/LucesNavidad.dir/Tema3/LucesNavidad.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/LucesNavidad.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = LucesNavidad
+  TARGET_PDB = LucesNavidad.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CompraSemana
+
+
+#############################################
+# Order-only phony target for CompraSemana
+
+build cmake_object_order_depends_target_CompraSemana: phony || CMakeFiles/CompraSemana.dir
+
+build CMakeFiles/CompraSemana.dir/Tema3/CompraSemana.cpp.o: CXX_COMPILER__CompraSemana_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema3/CompraSemana.cpp || cmake_object_order_depends_target_CompraSemana
+  DEP_FILE = CMakeFiles/CompraSemana.dir/Tema3/CompraSemana.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/CompraSemana.dir
+  OBJECT_FILE_DIR = CMakeFiles/CompraSemana.dir/Tema3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CompraSemana
+
+
+#############################################
+# Link the executable CompraSemana
+
+build CompraSemana: CXX_EXECUTABLE_LINKER__CompraSemana_Debug CMakeFiles/CompraSemana.dir/Tema3/CompraSemana.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/CompraSemana.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = CompraSemana
+  TARGET_PDB = CompraSemana.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target FormasSumar
+
+
+#############################################
+# Order-only phony target for FormasSumar
+
+build cmake_object_order_depends_target_FormasSumar: phony || CMakeFiles/FormasSumar.dir
+
+build CMakeFiles/FormasSumar.dir/Tema3/FormasSumar.cpp.o: CXX_COMPILER__FormasSumar_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema3/FormasSumar.cpp || cmake_object_order_depends_target_FormasSumar
+  DEP_FILE = CMakeFiles/FormasSumar.dir/Tema3/FormasSumar.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/FormasSumar.dir
+  OBJECT_FILE_DIR = CMakeFiles/FormasSumar.dir/Tema3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FormasSumar
+
+
+#############################################
+# Link the executable FormasSumar
+
+build FormasSumar: CXX_EXECUTABLE_LINKER__FormasSumar_Debug CMakeFiles/FormasSumar.dir/Tema3/FormasSumar.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/FormasSumar.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = FormasSumar
+  TARGET_PDB = FormasSumar.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target NumerosMenores
+
+
+#############################################
+# Order-only phony target for NumerosMenores
+
+build cmake_object_order_depends_target_NumerosMenores: phony || CMakeFiles/NumerosMenores.dir
+
+build CMakeFiles/NumerosMenores.dir/Tema4/NumerosMenores/NumerosMenores.cpp.o: CXX_COMPILER__NumerosMenores_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema4/NumerosMenores/NumerosMenores.cpp || cmake_object_order_depends_target_NumerosMenores
+  DEP_FILE = CMakeFiles/NumerosMenores.dir/Tema4/NumerosMenores/NumerosMenores.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/NumerosMenores.dir
+  OBJECT_FILE_DIR = CMakeFiles/NumerosMenores.dir/Tema4/NumerosMenores
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NumerosMenores
+
+
+#############################################
+# Link the executable NumerosMenores
+
+build NumerosMenores: CXX_EXECUTABLE_LINKER__NumerosMenores_Debug CMakeFiles/NumerosMenores.dir/Tema4/NumerosMenores/NumerosMenores.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/NumerosMenores.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = NumerosMenores
+  TARGET_PDB = NumerosMenores.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ProximoTren
+
+
+#############################################
+# Order-only phony target for ProximoTren
+
+build cmake_object_order_depends_target_ProximoTren: phony || CMakeFiles/ProximoTren.dir
+
+build CMakeFiles/ProximoTren.dir/Tema4/ProximoTren/ProximoTren.cpp.o: CXX_COMPILER__ProximoTren_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema4/ProximoTren/ProximoTren.cpp || cmake_object_order_depends_target_ProximoTren
+  DEP_FILE = CMakeFiles/ProximoTren.dir/Tema4/ProximoTren/ProximoTren.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ProximoTren.dir
+  OBJECT_FILE_DIR = CMakeFiles/ProximoTren.dir/Tema4/ProximoTren
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ProximoTren
+
+
+#############################################
+# Link the executable ProximoTren
+
+build ProximoTren: CXX_EXECUTABLE_LINKER__ProximoTren_Debug CMakeFiles/ProximoTren.dir/Tema4/ProximoTren/ProximoTren.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/ProximoTren.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ProximoTren
+  TARGET_PDB = ProximoTren.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target EvaluarPolinomio
+
+
+#############################################
+# Order-only phony target for EvaluarPolinomio
+
+build cmake_object_order_depends_target_EvaluarPolinomio: phony || CMakeFiles/EvaluarPolinomio.dir
+
+build CMakeFiles/EvaluarPolinomio.dir/Tema4/EvaluarPolinomio/EvaluarPolinomio.cpp.o: CXX_COMPILER__EvaluarPolinomio_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema4/EvaluarPolinomio/EvaluarPolinomio.cpp || cmake_object_order_depends_target_EvaluarPolinomio
+  DEP_FILE = CMakeFiles/EvaluarPolinomio.dir/Tema4/EvaluarPolinomio/EvaluarPolinomio.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/EvaluarPolinomio.dir
+  OBJECT_FILE_DIR = CMakeFiles/EvaluarPolinomio.dir/Tema4/EvaluarPolinomio
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EvaluarPolinomio
+
+
+#############################################
+# Link the executable EvaluarPolinomio
+
+build EvaluarPolinomio: CXX_EXECUTABLE_LINKER__EvaluarPolinomio_Debug CMakeFiles/EvaluarPolinomio.dir/Tema4/EvaluarPolinomio/EvaluarPolinomio.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/EvaluarPolinomio.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = EvaluarPolinomio
+  TARGET_PDB = EvaluarPolinomio.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target NumerosFelices
+
+
+#############################################
+# Order-only phony target for NumerosFelices
+
+build cmake_object_order_depends_target_NumerosFelices: phony || CMakeFiles/NumerosFelices.dir
+
+build CMakeFiles/NumerosFelices.dir/Tema4/NumerosFelices.cpp.o: CXX_COMPILER__NumerosFelices_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema4/NumerosFelices.cpp || cmake_object_order_depends_target_NumerosFelices
+  DEP_FILE = CMakeFiles/NumerosFelices.dir/Tema4/NumerosFelices.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/NumerosFelices.dir
+  OBJECT_FILE_DIR = CMakeFiles/NumerosFelices.dir/Tema4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NumerosFelices
+
+
+#############################################
+# Link the executable NumerosFelices
+
+build NumerosFelices: CXX_EXECUTABLE_LINKER__NumerosFelices_Debug CMakeFiles/NumerosFelices.dir/Tema4/NumerosFelices.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/NumerosFelices.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = NumerosFelices
+  TARGET_PDB = NumerosFelices.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UnaTardeDeSabado
+
+
+#############################################
+# Order-only phony target for UnaTardeDeSabado
+
+build cmake_object_order_depends_target_UnaTardeDeSabado: phony || CMakeFiles/UnaTardeDeSabado.dir
+
+build CMakeFiles/UnaTardeDeSabado.dir/Tema4/UnaTardeDeSabado/UnaTardeDeSabado.cpp.o: CXX_COMPILER__UnaTardeDeSabado_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema4/UnaTardeDeSabado/UnaTardeDeSabado.cpp || cmake_object_order_depends_target_UnaTardeDeSabado
+  DEP_FILE = CMakeFiles/UnaTardeDeSabado.dir/Tema4/UnaTardeDeSabado/UnaTardeDeSabado.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/UnaTardeDeSabado.dir
+  OBJECT_FILE_DIR = CMakeFiles/UnaTardeDeSabado.dir/Tema4/UnaTardeDeSabado
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UnaTardeDeSabado
+
+
+#############################################
+# Link the executable UnaTardeDeSabado
+
+build UnaTardeDeSabado: CXX_EXECUTABLE_LINKER__UnaTardeDeSabado_Debug CMakeFiles/UnaTardeDeSabado.dir/Tema4/UnaTardeDeSabado/UnaTardeDeSabado.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/UnaTardeDeSabado.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UnaTardeDeSabado
+  TARGET_PDB = UnaTardeDeSabado.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target InclusionSet
+
+
+#############################################
+# Order-only phony target for InclusionSet
+
+build cmake_object_order_depends_target_InclusionSet: phony || CMakeFiles/InclusionSet.dir
+
+build CMakeFiles/InclusionSet.dir/Tema4/InclusionSet/InclusionSet.cpp.o: CXX_COMPILER__InclusionSet_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema4/InclusionSet/InclusionSet.cpp || cmake_object_order_depends_target_InclusionSet
+  DEP_FILE = CMakeFiles/InclusionSet.dir/Tema4/InclusionSet/InclusionSet.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/InclusionSet.dir
+  OBJECT_FILE_DIR = CMakeFiles/InclusionSet.dir/Tema4/InclusionSet
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target InclusionSet
+
+
+#############################################
+# Link the executable InclusionSet
+
+build InclusionSet: CXX_EXECUTABLE_LINKER__InclusionSet_Debug CMakeFiles/InclusionSet.dir/Tema4/InclusionSet/InclusionSet.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/InclusionSet.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = InclusionSet
+  TARGET_PDB = InclusionSet.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DuplicarElementos
+
+
+#############################################
+# Order-only phony target for DuplicarElementos
+
+build cmake_object_order_depends_target_DuplicarElementos: phony || CMakeFiles/DuplicarElementos.dir
+
+build CMakeFiles/DuplicarElementos.dir/Tema5/DuplicarElementos/DuplicarElementos.cpp.o: CXX_COMPILER__DuplicarElementos_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema5/DuplicarElementos/DuplicarElementos.cpp || cmake_object_order_depends_target_DuplicarElementos
+  DEP_FILE = CMakeFiles/DuplicarElementos.dir/Tema5/DuplicarElementos/DuplicarElementos.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/DuplicarElementos.dir
+  OBJECT_FILE_DIR = CMakeFiles/DuplicarElementos.dir/Tema5/DuplicarElementos
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DuplicarElementos
+
+
+#############################################
+# Link the executable DuplicarElementos
+
+build DuplicarElementos: CXX_EXECUTABLE_LINKER__DuplicarElementos_Debug CMakeFiles/DuplicarElementos.dir/Tema5/DuplicarElementos/DuplicarElementos.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/DuplicarElementos.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = DuplicarElementos
+  TARGET_PDB = DuplicarElementos.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target VueltaSegmento
+
+
+#############################################
+# Order-only phony target for VueltaSegmento
+
+build cmake_object_order_depends_target_VueltaSegmento: phony || CMakeFiles/VueltaSegmento.dir
+
+build CMakeFiles/VueltaSegmento.dir/Tema5/VueltaSegmento/VueltaSegmento.cpp.o: CXX_COMPILER__VueltaSegmento_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema5/VueltaSegmento/VueltaSegmento.cpp || cmake_object_order_depends_target_VueltaSegmento
+  DEP_FILE = CMakeFiles/VueltaSegmento.dir/Tema5/VueltaSegmento/VueltaSegmento.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/VueltaSegmento.dir
+  OBJECT_FILE_DIR = CMakeFiles/VueltaSegmento.dir/Tema5/VueltaSegmento
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target VueltaSegmento
+
+
+#############################################
+# Link the executable VueltaSegmento
+
+build VueltaSegmento: CXX_EXECUTABLE_LINKER__VueltaSegmento_Debug CMakeFiles/VueltaSegmento.dir/Tema5/VueltaSegmento/VueltaSegmento.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/VueltaSegmento.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = VueltaSegmento
+  TARGET_PDB = VueltaSegmento.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ParentesisEquilibrados
+
+
+#############################################
+# Order-only phony target for ParentesisEquilibrados
+
+build cmake_object_order_depends_target_ParentesisEquilibrados: phony || CMakeFiles/ParentesisEquilibrados.dir
+
+build CMakeFiles/ParentesisEquilibrados.dir/Tema5/ParentesisEquilibrados.cpp.o: CXX_COMPILER__ParentesisEquilibrados_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema5/ParentesisEquilibrados.cpp || cmake_object_order_depends_target_ParentesisEquilibrados
+  DEP_FILE = CMakeFiles/ParentesisEquilibrados.dir/Tema5/ParentesisEquilibrados.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ParentesisEquilibrados.dir
+  OBJECT_FILE_DIR = CMakeFiles/ParentesisEquilibrados.dir/Tema5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ParentesisEquilibrados
+
+
+#############################################
+# Link the executable ParentesisEquilibrados
+
+build ParentesisEquilibrados: CXX_EXECUTABLE_LINKER__ParentesisEquilibrados_Debug CMakeFiles/ParentesisEquilibrados.dir/Tema5/ParentesisEquilibrados.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/ParentesisEquilibrados.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ParentesisEquilibrados
+  TARGET_PDB = ParentesisEquilibrados.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ReordenarCola
+
+
+#############################################
+# Order-only phony target for ReordenarCola
+
+build cmake_object_order_depends_target_ReordenarCola: phony || CMakeFiles/ReordenarCola.dir
+
+build CMakeFiles/ReordenarCola.dir/Tema5/ReordenarCola.cpp.o: CXX_COMPILER__ReordenarCola_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema5/ReordenarCola.cpp || cmake_object_order_depends_target_ReordenarCola
+  DEP_FILE = CMakeFiles/ReordenarCola.dir/Tema5/ReordenarCola.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ReordenarCola.dir
+  OBJECT_FILE_DIR = CMakeFiles/ReordenarCola.dir/Tema5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ReordenarCola
+
+
+#############################################
+# Link the executable ReordenarCola
+
+build ReordenarCola: CXX_EXECUTABLE_LINKER__ReordenarCola_Debug CMakeFiles/ReordenarCola.dir/Tema5/ReordenarCola.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/ReordenarCola.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ReordenarCola
+  TARGET_PDB = ReordenarCola.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target InvertirCola
+
+
+#############################################
+# Order-only phony target for InvertirCola
+
+build cmake_object_order_depends_target_InvertirCola: phony || CMakeFiles/InvertirCola.dir
+
+build CMakeFiles/InvertirCola.dir/Tema5/InvertirCola/InvertirCola.cpp.o: CXX_COMPILER__InvertirCola_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema5/InvertirCola/InvertirCola.cpp || cmake_object_order_depends_target_InvertirCola
+  DEP_FILE = CMakeFiles/InvertirCola.dir/Tema5/InvertirCola/InvertirCola.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/InvertirCola.dir
+  OBJECT_FILE_DIR = CMakeFiles/InvertirCola.dir/Tema5/InvertirCola
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target InvertirCola
+
+
+#############################################
+# Link the executable InvertirCola
+
+build InvertirCola: CXX_EXECUTABLE_LINKER__InvertirCola_Debug CMakeFiles/InvertirCola.dir/Tema5/InvertirCola/InvertirCola.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/InvertirCola.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = InvertirCola
+  TARGET_PDB = InvertirCola.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CuelaCola
+
+
+#############################################
+# Order-only phony target for CuelaCola
+
+build cmake_object_order_depends_target_CuelaCola: phony || CMakeFiles/CuelaCola.dir
+
+build CMakeFiles/CuelaCola.dir/Tema5/CuelaCola/CuelaCola.cpp.o: CXX_COMPILER__CuelaCola_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema5/CuelaCola/CuelaCola.cpp || cmake_object_order_depends_target_CuelaCola
+  DEP_FILE = CMakeFiles/CuelaCola.dir/Tema5/CuelaCola/CuelaCola.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/CuelaCola.dir
+  OBJECT_FILE_DIR = CMakeFiles/CuelaCola.dir/Tema5/CuelaCola
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CuelaCola
+
+
+#############################################
+# Link the executable CuelaCola
+
+build CuelaCola: CXX_EXECUTABLE_LINKER__CuelaCola_Debug CMakeFiles/CuelaCola.dir/Tema5/CuelaCola/CuelaCola.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/CuelaCola.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = CuelaCola
+  TARGET_PDB = CuelaCola.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ColaPepsiCola
+
+
+#############################################
+# Order-only phony target for ColaPepsiCola
+
+build cmake_object_order_depends_target_ColaPepsiCola: phony || CMakeFiles/ColaPepsiCola.dir
+
+build CMakeFiles/ColaPepsiCola.dir/Tema5/ColaPepsiCola/ColaPepsiCola.cpp.o: CXX_COMPILER__ColaPepsiCola_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema5/ColaPepsiCola/ColaPepsiCola.cpp || cmake_object_order_depends_target_ColaPepsiCola
+  DEP_FILE = CMakeFiles/ColaPepsiCola.dir/Tema5/ColaPepsiCola/ColaPepsiCola.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ColaPepsiCola.dir
+  OBJECT_FILE_DIR = CMakeFiles/ColaPepsiCola.dir/Tema5/ColaPepsiCola
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ColaPepsiCola
+
+
+#############################################
+# Link the executable ColaPepsiCola
+
+build ColaPepsiCola: CXX_EXECUTABLE_LINKER__ColaPepsiCola_Debug CMakeFiles/ColaPepsiCola.dir/Tema5/ColaPepsiCola/ColaPepsiCola.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/ColaPepsiCola.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ColaPepsiCola
+  TARGET_PDB = ColaPepsiCola.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DecodificarMensaje
+
+
+#############################################
+# Order-only phony target for DecodificarMensaje
+
+build cmake_object_order_depends_target_DecodificarMensaje: phony || CMakeFiles/DecodificarMensaje.dir
+
+build CMakeFiles/DecodificarMensaje.dir/Tema5/DecodificacionMensaje.cpp.o: CXX_COMPILER__DecodificarMensaje_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema5/DecodificacionMensaje.cpp || cmake_object_order_depends_target_DecodificarMensaje
+  DEP_FILE = CMakeFiles/DecodificarMensaje.dir/Tema5/DecodificacionMensaje.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/DecodificarMensaje.dir
+  OBJECT_FILE_DIR = CMakeFiles/DecodificarMensaje.dir/Tema5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DecodificarMensaje
+
+
+#############################################
+# Link the executable DecodificarMensaje
+
+build DecodificarMensaje: CXX_EXECUTABLE_LINKER__DecodificarMensaje_Debug CMakeFiles/DecodificarMensaje.dir/Tema5/DecodificacionMensaje.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/DecodificarMensaje.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = DecodificarMensaje
+  TARGET_PDB = DecodificarMensaje.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MezclarListasOrdenadas
+
+
+#############################################
+# Order-only phony target for MezclarListasOrdenadas
+
+build cmake_object_order_depends_target_MezclarListasOrdenadas: phony || CMakeFiles/MezclarListasOrdenadas.dir
+
+build CMakeFiles/MezclarListasOrdenadas.dir/Tema5/MezclarListasOrdenadas/MezclarListasOrdenadas.cpp.o: CXX_COMPILER__MezclarListasOrdenadas_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema5/MezclarListasOrdenadas/MezclarListasOrdenadas.cpp || cmake_object_order_depends_target_MezclarListasOrdenadas
+  DEP_FILE = CMakeFiles/MezclarListasOrdenadas.dir/Tema5/MezclarListasOrdenadas/MezclarListasOrdenadas.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/MezclarListasOrdenadas.dir
+  OBJECT_FILE_DIR = CMakeFiles/MezclarListasOrdenadas.dir/Tema5/MezclarListasOrdenadas
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MezclarListasOrdenadas
+
+
+#############################################
+# Link the executable MezclarListasOrdenadas
+
+build MezclarListasOrdenadas: CXX_EXECUTABLE_LINKER__MezclarListasOrdenadas_Debug CMakeFiles/MezclarListasOrdenadas.dir/Tema5/MezclarListasOrdenadas/MezclarListasOrdenadas.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/MezclarListasOrdenadas.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = MezclarListasOrdenadas
+  TARGET_PDB = MezclarListasOrdenadas.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AlumnoAfortunado
+
+
+#############################################
+# Order-only phony target for AlumnoAfortunado
+
+build cmake_object_order_depends_target_AlumnoAfortunado: phony || CMakeFiles/AlumnoAfortunado.dir
+
+build CMakeFiles/AlumnoAfortunado.dir/Tema5/AlumnoAfortunado.cpp.o: CXX_COMPILER__AlumnoAfortunado_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema5/AlumnoAfortunado.cpp || cmake_object_order_depends_target_AlumnoAfortunado
+  DEP_FILE = CMakeFiles/AlumnoAfortunado.dir/Tema5/AlumnoAfortunado.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/AlumnoAfortunado.dir
+  OBJECT_FILE_DIR = CMakeFiles/AlumnoAfortunado.dir/Tema5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AlumnoAfortunado
+
+
+#############################################
+# Link the executable AlumnoAfortunado
+
+build AlumnoAfortunado: CXX_EXECUTABLE_LINKER__AlumnoAfortunado_Debug CMakeFiles/AlumnoAfortunado.dir/Tema5/AlumnoAfortunado.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/AlumnoAfortunado.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = AlumnoAfortunado
+  TARGET_PDB = AlumnoAfortunado.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target OrdenacionComplejidadLineal
+
+
+#############################################
+# Order-only phony target for OrdenacionComplejidadLineal
+
+build cmake_object_order_depends_target_OrdenacionComplejidadLineal: phony || CMakeFiles/OrdenacionComplejidadLineal.dir
+
+build CMakeFiles/OrdenacionComplejidadLineal.dir/Tema5/OrdenacionComplejidadLineal.cpp.o: CXX_COMPILER__OrdenacionComplejidadLineal_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema5/OrdenacionComplejidadLineal.cpp || cmake_object_order_depends_target_OrdenacionComplejidadLineal
+  DEP_FILE = CMakeFiles/OrdenacionComplejidadLineal.dir/Tema5/OrdenacionComplejidadLineal.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/OrdenacionComplejidadLineal.dir
+  OBJECT_FILE_DIR = CMakeFiles/OrdenacionComplejidadLineal.dir/Tema5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target OrdenacionComplejidadLineal
+
+
+#############################################
+# Link the executable OrdenacionComplejidadLineal
+
+build OrdenacionComplejidadLineal: CXX_EXECUTABLE_LINKER__OrdenacionComplejidadLineal_Debug CMakeFiles/OrdenacionComplejidadLineal.dir/Tema5/OrdenacionComplejidadLineal.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/OrdenacionComplejidadLineal.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = OrdenacionComplejidadLineal
+  TARGET_PDB = OrdenacionComplejidadLineal.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target EliminarApariciones
+
+
+#############################################
+# Order-only phony target for EliminarApariciones
+
+build cmake_object_order_depends_target_EliminarApariciones: phony || CMakeFiles/EliminarApariciones.dir
+
+build CMakeFiles/EliminarApariciones.dir/Tema5/EliminarApariciones/EliminarApariciones.cpp.o: CXX_COMPILER__EliminarApariciones_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema5/EliminarApariciones/EliminarApariciones.cpp || cmake_object_order_depends_target_EliminarApariciones
+  DEP_FILE = CMakeFiles/EliminarApariciones.dir/Tema5/EliminarApariciones/EliminarApariciones.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/EliminarApariciones.dir
+  OBJECT_FILE_DIR = CMakeFiles/EliminarApariciones.dir/Tema5/EliminarApariciones
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EliminarApariciones
+
+
+#############################################
+# Link the executable EliminarApariciones
+
+build EliminarApariciones: CXX_EXECUTABLE_LINKER__EliminarApariciones_Debug CMakeFiles/EliminarApariciones.dir/Tema5/EliminarApariciones/EliminarApariciones.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/EliminarApariciones.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = EliminarApariciones
+  TARGET_PDB = EliminarApariciones.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target EliminarAparicionesExterno
+
+
+#############################################
+# Order-only phony target for EliminarAparicionesExterno
+
+build cmake_object_order_depends_target_EliminarAparicionesExterno: phony || CMakeFiles/EliminarAparicionesExterno.dir
+
+build CMakeFiles/EliminarAparicionesExterno.dir/Tema5/EliminarAparicionesExterno.cpp.o: CXX_COMPILER__EliminarAparicionesExterno_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema5/EliminarAparicionesExterno.cpp || cmake_object_order_depends_target_EliminarAparicionesExterno
+  DEP_FILE = CMakeFiles/EliminarAparicionesExterno.dir/Tema5/EliminarAparicionesExterno.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/EliminarAparicionesExterno.dir
+  OBJECT_FILE_DIR = CMakeFiles/EliminarAparicionesExterno.dir/Tema5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EliminarAparicionesExterno
+
+
+#############################################
+# Link the executable EliminarAparicionesExterno
+
+build EliminarAparicionesExterno: CXX_EXECUTABLE_LINKER__EliminarAparicionesExterno_Debug CMakeFiles/EliminarAparicionesExterno.dir/Tema5/EliminarAparicionesExterno.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/EliminarAparicionesExterno.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = EliminarAparicionesExterno
+  TARGET_PDB = EliminarAparicionesExterno.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AdelantarSegmento
+
+
+#############################################
+# Order-only phony target for AdelantarSegmento
+
+build cmake_object_order_depends_target_AdelantarSegmento: phony || CMakeFiles/AdelantarSegmento.dir
+
+build CMakeFiles/AdelantarSegmento.dir/Tema5/AdelantarSegmento/AdelantarSegmento.cpp.o: CXX_COMPILER__AdelantarSegmento_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema5/AdelantarSegmento/AdelantarSegmento.cpp || cmake_object_order_depends_target_AdelantarSegmento
+  DEP_FILE = CMakeFiles/AdelantarSegmento.dir/Tema5/AdelantarSegmento/AdelantarSegmento.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/AdelantarSegmento.dir
+  OBJECT_FILE_DIR = CMakeFiles/AdelantarSegmento.dir/Tema5/AdelantarSegmento
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AdelantarSegmento
+
+
+#############################################
+# Link the executable AdelantarSegmento
+
+build AdelantarSegmento: CXX_EXECUTABLE_LINKER__AdelantarSegmento_Debug CMakeFiles/AdelantarSegmento.dir/Tema5/AdelantarSegmento/AdelantarSegmento.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/AdelantarSegmento.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = AdelantarSegmento
+  TARGET_PDB = AdelantarSegmento.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Frontera
+
+
+#############################################
+# Order-only phony target for Frontera
+
+build cmake_object_order_depends_target_Frontera: phony || CMakeFiles/Frontera.dir
+
+build CMakeFiles/Frontera.dir/Tema6/Frontera/Frontera.cpp.o: CXX_COMPILER__Frontera_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema6/Frontera/Frontera.cpp || cmake_object_order_depends_target_Frontera
+  DEP_FILE = CMakeFiles/Frontera.dir/Tema6/Frontera/Frontera.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Frontera.dir
+  OBJECT_FILE_DIR = CMakeFiles/Frontera.dir/Tema6/Frontera
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Frontera
+
+
+#############################################
+# Link the executable Frontera
+
+build Frontera: CXX_EXECUTABLE_LINKER__Frontera_Debug CMakeFiles/Frontera.dir/Tema6/Frontera/Frontera.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/Frontera.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Frontera
+  TARGET_PDB = Frontera.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target NodosHojasAltura
+
+
+#############################################
+# Order-only phony target for NodosHojasAltura
+
+build cmake_object_order_depends_target_NodosHojasAltura: phony || CMakeFiles/NodosHojasAltura.dir
+
+build CMakeFiles/NodosHojasAltura.dir/Tema6/NodosHojasAltura/NodosHojasAltura.cpp.o: CXX_COMPILER__NodosHojasAltura_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema6/NodosHojasAltura/NodosHojasAltura.cpp || cmake_object_order_depends_target_NodosHojasAltura
+  DEP_FILE = CMakeFiles/NodosHojasAltura.dir/Tema6/NodosHojasAltura/NodosHojasAltura.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/NodosHojasAltura.dir
+  OBJECT_FILE_DIR = CMakeFiles/NodosHojasAltura.dir/Tema6/NodosHojasAltura
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NodosHojasAltura
+
+
+#############################################
+# Link the executable NodosHojasAltura
+
+build NodosHojasAltura: CXX_EXECUTABLE_LINKER__NodosHojasAltura_Debug CMakeFiles/NodosHojasAltura.dir/Tema6/NodosHojasAltura/NodosHojasAltura.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/NodosHojasAltura.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = NodosHojasAltura
+  TARGET_PDB = NodosHojasAltura.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ArbolBinarioBusqueda
+
+
+#############################################
+# Order-only phony target for ArbolBinarioBusqueda
+
+build cmake_object_order_depends_target_ArbolBinarioBusqueda: phony || CMakeFiles/ArbolBinarioBusqueda.dir
+
+build CMakeFiles/ArbolBinarioBusqueda.dir/Tema6/ArbolBinarioBusqueda/ArbolBinarioBusqueda.cpp.o: CXX_COMPILER__ArbolBinarioBusqueda_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema6/ArbolBinarioBusqueda/ArbolBinarioBusqueda.cpp || cmake_object_order_depends_target_ArbolBinarioBusqueda
+  DEP_FILE = CMakeFiles/ArbolBinarioBusqueda.dir/Tema6/ArbolBinarioBusqueda/ArbolBinarioBusqueda.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ArbolBinarioBusqueda.dir
+  OBJECT_FILE_DIR = CMakeFiles/ArbolBinarioBusqueda.dir/Tema6/ArbolBinarioBusqueda
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ArbolBinarioBusqueda
+
+
+#############################################
+# Link the executable ArbolBinarioBusqueda
+
+build ArbolBinarioBusqueda: CXX_EXECUTABLE_LINKER__ArbolBinarioBusqueda_Debug CMakeFiles/ArbolBinarioBusqueda.dir/Tema6/ArbolBinarioBusqueda/ArbolBinarioBusqueda.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/ArbolBinarioBusqueda.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ArbolBinarioBusqueda
+  TARGET_PDB = ArbolBinarioBusqueda.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Singulares
+
+
+#############################################
+# Order-only phony target for Singulares
+
+build cmake_object_order_depends_target_Singulares: phony || CMakeFiles/Singulares.dir
+
+build CMakeFiles/Singulares.dir/Tema6/Singulares/Singulares.cpp.o: CXX_COMPILER__Singulares_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema6/Singulares/Singulares.cpp || cmake_object_order_depends_target_Singulares
+  DEP_FILE = CMakeFiles/Singulares.dir/Tema6/Singulares/Singulares.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Singulares.dir
+  OBJECT_FILE_DIR = CMakeFiles/Singulares.dir/Tema6/Singulares
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Singulares
+
+
+#############################################
+# Link the executable Singulares
+
+build Singulares: CXX_EXECUTABLE_LINKER__Singulares_Debug CMakeFiles/Singulares.dir/Tema6/Singulares/Singulares.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/Singulares.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Singulares
+  TARGET_PDB = Singulares.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ElementoMinimoArbol
+
+
+#############################################
+# Order-only phony target for ElementoMinimoArbol
+
+build cmake_object_order_depends_target_ElementoMinimoArbol: phony || CMakeFiles/ElementoMinimoArbol.dir
+
+build CMakeFiles/ElementoMinimoArbol.dir/Tema6/ElementoMinimo/ElementoMinimo.cpp.o: CXX_COMPILER__ElementoMinimoArbol_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema6/ElementoMinimo/ElementoMinimo.cpp || cmake_object_order_depends_target_ElementoMinimoArbol
+  DEP_FILE = CMakeFiles/ElementoMinimoArbol.dir/Tema6/ElementoMinimo/ElementoMinimo.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ElementoMinimoArbol.dir
+  OBJECT_FILE_DIR = CMakeFiles/ElementoMinimoArbol.dir/Tema6/ElementoMinimo
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ElementoMinimoArbol
+
+
+#############################################
+# Link the executable ElementoMinimoArbol
+
+build ElementoMinimoArbol: CXX_EXECUTABLE_LINKER__ElementoMinimoArbol_Debug CMakeFiles/ElementoMinimoArbol.dir/Tema6/ElementoMinimo/ElementoMinimo.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/ElementoMinimoArbol.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ElementoMinimoArbol
+  TARGET_PDB = ElementoMinimoArbol.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BarreraPrimos
+
+
+#############################################
+# Order-only phony target for BarreraPrimos
+
+build cmake_object_order_depends_target_BarreraPrimos: phony || CMakeFiles/BarreraPrimos.dir
+
+build CMakeFiles/BarreraPrimos.dir/Tema6/BarreraPrimos/BarreraPrimos.cpp.o: CXX_COMPILER__BarreraPrimos_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema6/BarreraPrimos/BarreraPrimos.cpp || cmake_object_order_depends_target_BarreraPrimos
+  DEP_FILE = CMakeFiles/BarreraPrimos.dir/Tema6/BarreraPrimos/BarreraPrimos.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/BarreraPrimos.dir
+  OBJECT_FILE_DIR = CMakeFiles/BarreraPrimos.dir/Tema6/BarreraPrimos
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BarreraPrimos
+
+
+#############################################
+# Link the executable BarreraPrimos
+
+build BarreraPrimos: CXX_EXECUTABLE_LINKER__BarreraPrimos_Debug CMakeFiles/BarreraPrimos.dir/Tema6/BarreraPrimos/BarreraPrimos.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/BarreraPrimos.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = BarreraPrimos
+  TARGET_PDB = BarreraPrimos.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ArbolesGenealogicos
+
+
+#############################################
+# Order-only phony target for ArbolesGenealogicos
+
+build cmake_object_order_depends_target_ArbolesGenealogicos: phony || CMakeFiles/ArbolesGenealogicos.dir
+
+build CMakeFiles/ArbolesGenealogicos.dir/Tema6/ArbolesGenealogicos/ArbolesGenealogicos.cpp.o: CXX_COMPILER__ArbolesGenealogicos_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema6/ArbolesGenealogicos/ArbolesGenealogicos.cpp || cmake_object_order_depends_target_ArbolesGenealogicos
+  DEP_FILE = CMakeFiles/ArbolesGenealogicos.dir/Tema6/ArbolesGenealogicos/ArbolesGenealogicos.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ArbolesGenealogicos.dir
+  OBJECT_FILE_DIR = CMakeFiles/ArbolesGenealogicos.dir/Tema6/ArbolesGenealogicos
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ArbolesGenealogicos
+
+
+#############################################
+# Link the executable ArbolesGenealogicos
+
+build ArbolesGenealogicos: CXX_EXECUTABLE_LINKER__ArbolesGenealogicos_Debug CMakeFiles/ArbolesGenealogicos.dir/Tema6/ArbolesGenealogicos/ArbolesGenealogicos.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/ArbolesGenealogicos.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ArbolesGenealogicos
+  TARGET_PDB = ArbolesGenealogicos.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ArbolesZurdos
+
+
+#############################################
+# Order-only phony target for ArbolesZurdos
+
+build cmake_object_order_depends_target_ArbolesZurdos: phony || CMakeFiles/ArbolesZurdos.dir
+
+build CMakeFiles/ArbolesZurdos.dir/Tema6/ArbolesZurdos/ArbolesZurdos.cpp.o: CXX_COMPILER__ArbolesZurdos_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema6/ArbolesZurdos/ArbolesZurdos.cpp || cmake_object_order_depends_target_ArbolesZurdos
+  DEP_FILE = CMakeFiles/ArbolesZurdos.dir/Tema6/ArbolesZurdos/ArbolesZurdos.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ArbolesZurdos.dir
+  OBJECT_FILE_DIR = CMakeFiles/ArbolesZurdos.dir/Tema6/ArbolesZurdos
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ArbolesZurdos
+
+
+#############################################
+# Link the executable ArbolesZurdos
+
+build ArbolesZurdos: CXX_EXECUTABLE_LINKER__ArbolesZurdos_Debug CMakeFiles/ArbolesZurdos.dir/Tema6/ArbolesZurdos/ArbolesZurdos.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/ArbolesZurdos.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ArbolesZurdos
+  TARGET_PDB = ArbolesZurdos.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Aguaslimpias
+
+
+#############################################
+# Order-only phony target for Aguaslimpias
+
+build cmake_object_order_depends_target_Aguaslimpias: phony || CMakeFiles/Aguaslimpias.dir
+
+build CMakeFiles/Aguaslimpias.dir/Tema6/Aguaslimpias/Aguaslimpias.cpp.o: CXX_COMPILER__Aguaslimpias_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema6/Aguaslimpias/Aguaslimpias.cpp || cmake_object_order_depends_target_Aguaslimpias
+  DEP_FILE = CMakeFiles/Aguaslimpias.dir/Tema6/Aguaslimpias/Aguaslimpias.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Aguaslimpias.dir
+  OBJECT_FILE_DIR = CMakeFiles/Aguaslimpias.dir/Tema6/Aguaslimpias
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Aguaslimpias
+
+
+#############################################
+# Link the executable Aguaslimpias
+
+build Aguaslimpias: CXX_EXECUTABLE_LINKER__Aguaslimpias_Debug CMakeFiles/Aguaslimpias.dir/Tema6/Aguaslimpias/Aguaslimpias.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/Aguaslimpias.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Aguaslimpias
+  TARGET_PDB = Aguaslimpias.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DiametroArbolBinario
+
+
+#############################################
+# Order-only phony target for DiametroArbolBinario
+
+build cmake_object_order_depends_target_DiametroArbolBinario: phony || CMakeFiles/DiametroArbolBinario.dir
+
+build CMakeFiles/DiametroArbolBinario.dir/Tema6/DiametroArbolBinario/DiametroArbolBinario.cpp.o: CXX_COMPILER__DiametroArbolBinario_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema6/DiametroArbolBinario/DiametroArbolBinario.cpp || cmake_object_order_depends_target_DiametroArbolBinario
+  DEP_FILE = CMakeFiles/DiametroArbolBinario.dir/Tema6/DiametroArbolBinario/DiametroArbolBinario.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/DiametroArbolBinario.dir
+  OBJECT_FILE_DIR = CMakeFiles/DiametroArbolBinario.dir/Tema6/DiametroArbolBinario
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DiametroArbolBinario
+
+
+#############################################
+# Link the executable DiametroArbolBinario
+
+build DiametroArbolBinario: CXX_EXECUTABLE_LINKER__DiametroArbolBinario_Debug CMakeFiles/DiametroArbolBinario.dir/Tema6/DiametroArbolBinario/DiametroArbolBinario.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/DiametroArbolBinario.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = DiametroArbolBinario
+  TARGET_PDB = DiametroArbolBinario.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ReferenciasCruzadas
+
+
+#############################################
+# Order-only phony target for ReferenciasCruzadas
+
+build cmake_object_order_depends_target_ReferenciasCruzadas: phony || CMakeFiles/ReferenciasCruzadas.dir
+
+build CMakeFiles/ReferenciasCruzadas.dir/Tema7/ReferenciasCruzadas.cpp.o: CXX_COMPILER__ReferenciasCruzadas_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema7/ReferenciasCruzadas.cpp || cmake_object_order_depends_target_ReferenciasCruzadas
+  DEP_FILE = CMakeFiles/ReferenciasCruzadas.dir/Tema7/ReferenciasCruzadas.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ReferenciasCruzadas.dir
+  OBJECT_FILE_DIR = CMakeFiles/ReferenciasCruzadas.dir/Tema7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ReferenciasCruzadas
+
+
+#############################################
+# Link the executable ReferenciasCruzadas
+
+build ReferenciasCruzadas: CXX_EXECUTABLE_LINKER__ReferenciasCruzadas_Debug CMakeFiles/ReferenciasCruzadas.dir/Tema7/ReferenciasCruzadas.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/ReferenciasCruzadas.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ReferenciasCruzadas
+  TARGET_PDB = ReferenciasCruzadas.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ActualizacionDiccionario
+
+
+#############################################
+# Order-only phony target for ActualizacionDiccionario
+
+build cmake_object_order_depends_target_ActualizacionDiccionario: phony || CMakeFiles/ActualizacionDiccionario.dir
+
+build CMakeFiles/ActualizacionDiccionario.dir/Tema7/ActualizacionDiccionario.cpp.o: CXX_COMPILER__ActualizacionDiccionario_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema7/ActualizacionDiccionario.cpp || cmake_object_order_depends_target_ActualizacionDiccionario
+  DEP_FILE = CMakeFiles/ActualizacionDiccionario.dir/Tema7/ActualizacionDiccionario.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ActualizacionDiccionario.dir
+  OBJECT_FILE_DIR = CMakeFiles/ActualizacionDiccionario.dir/Tema7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ActualizacionDiccionario
+
+
+#############################################
+# Link the executable ActualizacionDiccionario
+
+build ActualizacionDiccionario: CXX_EXECUTABLE_LINKER__ActualizacionDiccionario_Debug CMakeFiles/ActualizacionDiccionario.dir/Tema7/ActualizacionDiccionario.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/ActualizacionDiccionario.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ActualizacionDiccionario
+  TARGET_PDB = ActualizacionDiccionario.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ActorMasVisto
+
+
+#############################################
+# Order-only phony target for ActorMasVisto
+
+build cmake_object_order_depends_target_ActorMasVisto: phony || CMakeFiles/ActorMasVisto.dir
+
+build CMakeFiles/ActorMasVisto.dir/Tema7/ActorMasVisto/ActorMasVisto.cpp.o: CXX_COMPILER__ActorMasVisto_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema7/ActorMasVisto/ActorMasVisto.cpp || cmake_object_order_depends_target_ActorMasVisto
+  DEP_FILE = CMakeFiles/ActorMasVisto.dir/Tema7/ActorMasVisto/ActorMasVisto.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ActorMasVisto.dir
+  OBJECT_FILE_DIR = CMakeFiles/ActorMasVisto.dir/Tema7/ActorMasVisto
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ActorMasVisto
+
+
+#############################################
+# Link the executable ActorMasVisto
+
+build ActorMasVisto: CXX_EXECUTABLE_LINKER__ActorMasVisto_Debug CMakeFiles/ActorMasVisto.dir/Tema7/ActorMasVisto/ActorMasVisto.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/ActorMasVisto.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ActorMasVisto
+  TARGET_PDB = ActorMasVisto.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CarnetPorPuntos1
+
+
+#############################################
+# Order-only phony target for CarnetPorPuntos1
+
+build cmake_object_order_depends_target_CarnetPorPuntos1: phony || CMakeFiles/CarnetPorPuntos1.dir
+
+build CMakeFiles/CarnetPorPuntos1.dir/Tema8/CarnetPorPuntos1.cpp.o: CXX_COMPILER__CarnetPorPuntos1_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema8/CarnetPorPuntos1.cpp || cmake_object_order_depends_target_CarnetPorPuntos1
+  DEP_FILE = CMakeFiles/CarnetPorPuntos1.dir/Tema8/CarnetPorPuntos1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/CarnetPorPuntos1.dir
+  OBJECT_FILE_DIR = CMakeFiles/CarnetPorPuntos1.dir/Tema8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CarnetPorPuntos1
+
+
+#############################################
+# Link the executable CarnetPorPuntos1
+
+build CarnetPorPuntos1: CXX_EXECUTABLE_LINKER__CarnetPorPuntos1_Debug CMakeFiles/CarnetPorPuntos1.dir/Tema8/CarnetPorPuntos1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/CarnetPorPuntos1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = CarnetPorPuntos1
+  TARGET_PDB = CarnetPorPuntos1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ConsultorioMedico
+
+
+#############################################
+# Order-only phony target for ConsultorioMedico
+
+build cmake_object_order_depends_target_ConsultorioMedico: phony || CMakeFiles/ConsultorioMedico.dir
+
+build CMakeFiles/ConsultorioMedico.dir/Tema8/ConsultorioMedico.cpp.o: CXX_COMPILER__ConsultorioMedico_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema8/ConsultorioMedico.cpp || cmake_object_order_depends_target_ConsultorioMedico
+  DEP_FILE = CMakeFiles/ConsultorioMedico.dir/Tema8/ConsultorioMedico.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ConsultorioMedico.dir
+  OBJECT_FILE_DIR = CMakeFiles/ConsultorioMedico.dir/Tema8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ConsultorioMedico
+
+
+#############################################
+# Link the executable ConsultorioMedico
+
+build ConsultorioMedico: CXX_EXECUTABLE_LINKER__ConsultorioMedico_Debug CMakeFiles/ConsultorioMedico.dir/Tema8/ConsultorioMedico.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/ConsultorioMedico.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ConsultorioMedico
+  TARGET_PDB = ConsultorioMedico.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target EleccionesSencillo
+
+
+#############################################
+# Order-only phony target for EleccionesSencillo
+
+build cmake_object_order_depends_target_EleccionesSencillo: phony || CMakeFiles/EleccionesSencillo.dir
+
+build CMakeFiles/EleccionesSencillo.dir/Tema8/EleccionesSencillo.cpp.o: CXX_COMPILER__EleccionesSencillo_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema8/EleccionesSencillo.cpp || cmake_object_order_depends_target_EleccionesSencillo
+  DEP_FILE = CMakeFiles/EleccionesSencillo.dir/Tema8/EleccionesSencillo.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/EleccionesSencillo.dir
+  OBJECT_FILE_DIR = CMakeFiles/EleccionesSencillo.dir/Tema8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EleccionesSencillo
+
+
+#############################################
+# Link the executable EleccionesSencillo
+
+build EleccionesSencillo: CXX_EXECUTABLE_LINKER__EleccionesSencillo_Debug CMakeFiles/EleccionesSencillo.dir/Tema8/EleccionesSencillo.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/EleccionesSencillo.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = EleccionesSencillo
+  TARGET_PDB = EleccionesSencillo.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CarnetPorPuntos2
+
+
+#############################################
+# Order-only phony target for CarnetPorPuntos2
+
+build cmake_object_order_depends_target_CarnetPorPuntos2: phony || CMakeFiles/CarnetPorPuntos2.dir
+
+build CMakeFiles/CarnetPorPuntos2.dir/Tema8/CarnetPorPuntos2.cpp.o: CXX_COMPILER__CarnetPorPuntos2_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema8/CarnetPorPuntos2.cpp || cmake_object_order_depends_target_CarnetPorPuntos2
+  DEP_FILE = CMakeFiles/CarnetPorPuntos2.dir/Tema8/CarnetPorPuntos2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/CarnetPorPuntos2.dir
+  OBJECT_FILE_DIR = CMakeFiles/CarnetPorPuntos2.dir/Tema8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CarnetPorPuntos2
+
+
+#############################################
+# Link the executable CarnetPorPuntos2
+
+build CarnetPorPuntos2: CXX_EXECUTABLE_LINKER__CarnetPorPuntos2_Debug CMakeFiles/CarnetPorPuntos2.dir/Tema8/CarnetPorPuntos2.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/CarnetPorPuntos2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = CarnetPorPuntos2
+  TARGET_PDB = CarnetPorPuntos2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target VentaLibros
+
+
+#############################################
+# Order-only phony target for VentaLibros
+
+build cmake_object_order_depends_target_VentaLibros: phony || CMakeFiles/VentaLibros.dir
+
+build CMakeFiles/VentaLibros.dir/Tema8/VentaLibros/VentaLibros.cpp.o: CXX_COMPILER__VentaLibros_Debug /Users/almasso/Documents/GitHub/JuezEDA/Tema8/VentaLibros/VentaLibros.cpp || cmake_object_order_depends_target_VentaLibros
+  DEP_FILE = CMakeFiles/VentaLibros.dir/Tema8/VentaLibros/VentaLibros.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/VentaLibros.dir
+  OBJECT_FILE_DIR = CMakeFiles/VentaLibros.dir/Tema8/VentaLibros
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target VentaLibros
+
+
+#############################################
+# Link the executable VentaLibros
+
+build VentaLibros: CXX_EXECUTABLE_LINKER__VentaLibros_Debug CMakeFiles/VentaLibros.dir/Tema8/VentaLibros/VentaLibros.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/VentaLibros.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = VentaLibros
+  TARGET_PDB = VentaLibros.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/almasso/Documents/GitHub/JuezEDA/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/almasso/Documents/GitHub/JuezEDA/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/almasso/Documents/GitHub/JuezEDA -B/Users/almasso/Documents/GitHub/JuezEDA/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/almasso/Documents/GitHub/JuezEDA/cmake-build-debug
+
+build all: phony Dalton Temperaturas DivisionVector Anagramas Listados Rescate Complementarios SuficientementeDisperso SoloUnImpar ElementosBienSituados CurvaConcava MinimoVector ElementoPerdido Junio2022 Diciembre2020 VectorParcialmenteOrdenado NumerosCaucasicos VariacionesConRepeticion VariacionesSinRepeticion LasNReinas TorresDeColores LucesNavidad CompraSemana FormasSumar NumerosMenores ProximoTren EvaluarPolinomio NumerosFelices UnaTardeDeSabado InclusionSet DuplicarElementos VueltaSegmento ParentesisEquilibrados ReordenarCola InvertirCola CuelaCola ColaPepsiCola DecodificarMensaje MezclarListasOrdenadas AlumnoAfortunado OrdenacionComplejidadLineal EliminarApariciones EliminarAparicionesExterno AdelantarSegmento Frontera NodosHojasAltura ArbolBinarioBusqueda Singulares ElementoMinimoArbol BarreraPrimos ArbolesGenealogicos ArbolesZurdos Aguaslimpias DiametroArbolBinario ReferenciasCruzadas ActualizacionDiccionario ActorMasVisto CarnetPorPuntos1 ConsultorioMedico EleccionesSencillo CarnetPorPuntos2 VentaLibros
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/almasso/Documents/GitHub/JuezEDA/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/almasso/Documents/GitHub/JuezEDA/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

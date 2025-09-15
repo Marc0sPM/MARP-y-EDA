@@ -1,0 +1,609 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Juez",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ActorMasVisto::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ActorMasVisto-Debug-deb6b42bf6ce8be0ce07.json",
+					"name" : "ActorMasVisto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ActualizacionDiccionario::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ActualizacionDiccionario-Debug-5a7fdd74dc4d91a225b1.json",
+					"name" : "ActualizacionDiccionario",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AdelantarSegmento::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AdelantarSegmento-Debug-89101514a8f9e7c29ae5.json",
+					"name" : "AdelantarSegmento",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aguaslimpias::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aguaslimpias-Debug-fee37eaecccd9b7e8f23.json",
+					"name" : "Aguaslimpias",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AlumnoAfortunado::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AlumnoAfortunado-Debug-c479dda8190a5a09401f.json",
+					"name" : "AlumnoAfortunado",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Anagramas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Anagramas-Debug-96187d1388196a832370.json",
+					"name" : "Anagramas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ArbolBinarioBusqueda::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ArbolBinarioBusqueda-Debug-4bfa413ed739ec952007.json",
+					"name" : "ArbolBinarioBusqueda",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ArbolesGenealogicos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ArbolesGenealogicos-Debug-54f36da4bc897f01b8d6.json",
+					"name" : "ArbolesGenealogicos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ArbolesZurdos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ArbolesZurdos-Debug-9418eb9a754505abfef9.json",
+					"name" : "ArbolesZurdos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BarreraPrimos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BarreraPrimos-Debug-4bcb00153a0502198ab3.json",
+					"name" : "BarreraPrimos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CarnetPorPuntos1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CarnetPorPuntos1-Debug-a75a62f0331e92590bcf.json",
+					"name" : "CarnetPorPuntos1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CarnetPorPuntos2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CarnetPorPuntos2-Debug-26ae0cf4ab53515688c2.json",
+					"name" : "CarnetPorPuntos2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ColaPepsiCola::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ColaPepsiCola-Debug-ea28dcc44c4e48d30655.json",
+					"name" : "ColaPepsiCola",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Complementarios::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Complementarios-Debug-5d56d29cbc90aa83bb4f.json",
+					"name" : "Complementarios",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CompraSemana::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CompraSemana-Debug-8450a68ca80533681af8.json",
+					"name" : "CompraSemana",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ConsultorioMedico::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ConsultorioMedico-Debug-ae040a84d85fb593f1b7.json",
+					"name" : "ConsultorioMedico",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CuelaCola::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CuelaCola-Debug-3747e1b00f365c93382a.json",
+					"name" : "CuelaCola",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CurvaConcava::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CurvaConcava-Debug-c54af85cc88a12a553a7.json",
+					"name" : "CurvaConcava",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dalton::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dalton-Debug-e1dc1e37da3b4647f043.json",
+					"name" : "Dalton",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DecodificarMensaje::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DecodificarMensaje-Debug-199b1152f261839b0db0.json",
+					"name" : "DecodificarMensaje",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DiametroArbolBinario::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DiametroArbolBinario-Debug-020e956a37378222c3a2.json",
+					"name" : "DiametroArbolBinario",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Diciembre2020::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Diciembre2020-Debug-d049fafc291dc4e1f2e8.json",
+					"name" : "Diciembre2020",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DivisionVector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DivisionVector-Debug-8f09c154e0e06b0f8e21.json",
+					"name" : "DivisionVector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DuplicarElementos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DuplicarElementos-Debug-c87743127e0c490f9036.json",
+					"name" : "DuplicarElementos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EleccionesSencillo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EleccionesSencillo-Debug-d0413f12fd86c3082e90.json",
+					"name" : "EleccionesSencillo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ElementoMinimoArbol::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ElementoMinimoArbol-Debug-8f264d986766a572c467.json",
+					"name" : "ElementoMinimoArbol",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ElementoPerdido::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ElementoPerdido-Debug-a2ecb657df6796082e14.json",
+					"name" : "ElementoPerdido",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ElementosBienSituados::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ElementosBienSituados-Debug-b6be0208d9c5f1858bce.json",
+					"name" : "ElementosBienSituados",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EliminarApariciones::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EliminarApariciones-Debug-e99e89ba3d36d170f4a5.json",
+					"name" : "EliminarApariciones",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EliminarAparicionesExterno::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EliminarAparicionesExterno-Debug-5a61eabce9e0bbd717b6.json",
+					"name" : "EliminarAparicionesExterno",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EvaluarPolinomio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EvaluarPolinomio-Debug-80021411e0b25e212b84.json",
+					"name" : "EvaluarPolinomio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FormasSumar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FormasSumar-Debug-560caaf314e6066046aa.json",
+					"name" : "FormasSumar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Frontera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Frontera-Debug-8ad8026a7ef848abe6aa.json",
+					"name" : "Frontera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InclusionSet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InclusionSet-Debug-23c13cada7b6c5725e13.json",
+					"name" : "InclusionSet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InvertirCola::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InvertirCola-Debug-2ce591e591c00c706dc9.json",
+					"name" : "InvertirCola",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Junio2022::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Junio2022-Debug-c58f2d45439cc0e3941a.json",
+					"name" : "Junio2022",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LasNReinas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LasNReinas-Debug-0ed6c762de7f0e32fbdb.json",
+					"name" : "LasNReinas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Listados::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Listados-Debug-5ce570170c0044cf30bd.json",
+					"name" : "Listados",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LucesNavidad::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LucesNavidad-Debug-0142764e1f9ee9244556.json",
+					"name" : "LucesNavidad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MezclarListasOrdenadas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MezclarListasOrdenadas-Debug-f26b850725ba91b9e274.json",
+					"name" : "MezclarListasOrdenadas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MinimoVector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MinimoVector-Debug-f1ddfdae6ed92d24e02c.json",
+					"name" : "MinimoVector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NodosHojasAltura::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NodosHojasAltura-Debug-0af039aae9bc15726951.json",
+					"name" : "NodosHojasAltura",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NumerosCaucasicos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NumerosCaucasicos-Debug-e877abd664a52e82a96f.json",
+					"name" : "NumerosCaucasicos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NumerosFelices::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NumerosFelices-Debug-d9ceb72bf3c6dbf2fdd3.json",
+					"name" : "NumerosFelices",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NumerosMenores::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NumerosMenores-Debug-0bd4ebaf92cb5e5cced8.json",
+					"name" : "NumerosMenores",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OrdenacionComplejidadLineal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OrdenacionComplejidadLineal-Debug-679de1c76f29452e5e17.json",
+					"name" : "OrdenacionComplejidadLineal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ParentesisEquilibrados::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ParentesisEquilibrados-Debug-568fc3ebc743dc4a5f47.json",
+					"name" : "ParentesisEquilibrados",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProximoTren::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProximoTren-Debug-49bc842619ce43798752.json",
+					"name" : "ProximoTren",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ReferenciasCruzadas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ReferenciasCruzadas-Debug-a45e6293884e78518dde.json",
+					"name" : "ReferenciasCruzadas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ReordenarCola::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ReordenarCola-Debug-5b79d2b201d35631baed.json",
+					"name" : "ReordenarCola",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Rescate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Rescate-Debug-e2286dacce52d5894ae6.json",
+					"name" : "Rescate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Singulares::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Singulares-Debug-5c20c298fdb123cc3fe6.json",
+					"name" : "Singulares",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SoloUnImpar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SoloUnImpar-Debug-c8461d7b1726df259a45.json",
+					"name" : "SoloUnImpar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SuficientementeDisperso::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SuficientementeDisperso-Debug-d600d984ded655668b14.json",
+					"name" : "SuficientementeDisperso",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Temperaturas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Temperaturas-Debug-a224a19a5441171e1f46.json",
+					"name" : "Temperaturas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TorresDeColores::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TorresDeColores-Debug-91d8eea7c62be38fda35.json",
+					"name" : "TorresDeColores",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnaTardeDeSabado::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnaTardeDeSabado-Debug-eb8669cf73328b6e479a.json",
+					"name" : "UnaTardeDeSabado",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "VariacionesConRepeticion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-VariacionesConRepeticion-Debug-2613e66dfe153da88ae3.json",
+					"name" : "VariacionesConRepeticion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "VariacionesSinRepeticion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-VariacionesSinRepeticion-Debug-2004b16c87b1900fc9a8.json",
+					"name" : "VariacionesSinRepeticion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "VectorParcialmenteOrdenado::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-VectorParcialmenteOrdenado-Debug-2622d65219086e35715d.json",
+					"name" : "VectorParcialmenteOrdenado",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "VentaLibros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-VentaLibros-Debug-52c6d9bbcb5e01280e42.json",
+					"name" : "VentaLibros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "VueltaSegmento::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-VueltaSegmento-Debug-4371641ebf40d0a9ac22.json",
+					"name" : "VueltaSegmento",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/almasso/Documents/GitHub/JuezEDA/cmake-build-debug",
+		"source" : "/Users/almasso/Documents/GitHub/JuezEDA"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
