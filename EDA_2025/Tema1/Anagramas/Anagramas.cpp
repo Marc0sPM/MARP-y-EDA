@@ -1,5 +1,5 @@
-// Nombre del alumno .....
-// Usuario del Juez ......
+// Marcos Perez Martinez
+// EDA-GDV58
 
 
 #include <iostream>
